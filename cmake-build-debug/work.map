@@ -1,9 +1,9 @@
 Archive member included to satisfy reference by file (symbol)
 
 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
-                              CMakeFiles/work.elf.dir/Src/main.c.obj (__aeabi_fmul)
+                              CMakeFiles/work.elf.dir/Src/ds18b20.c.obj (__aeabi_fmul)
 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
-                              CMakeFiles/work.elf.dir/Src/main.c.obj (__aeabi_i2f)
+                              CMakeFiles/work.elf.dir/Src/ds18b20.c.obj (__aeabi_i2f)
 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
                               CMakeFiles/work.elf.dir/Src/syscalls.c.obj (__errno)
 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-exit.o)
@@ -541,11 +541,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
  .data          0x00000000        0x0 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
  .bss           0x00000000        0x0 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
- .debug_line    0x00000000        0x0 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
- .debug_str     0x00000000      0x128 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
- .comment       0x00000000       0x4a CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
  .text          0x00000000        0x0 CMakeFiles/work.elf.dir/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/work.elf.dir/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/work.elf.dir/Src/main.c.obj
@@ -853,38 +848,38 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .text.HAL_UART_Transmit
                 0x080010e4       0xd8 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                 0x080010e4                HAL_UART_Transmit
- .text.MX_GPIO_Init
-                0x080011bc       0x78 CMakeFiles/work.elf.dir/Src/main.c.obj
- .text.MX_USART2_UART_Init
-                0x08001234       0x48 CMakeFiles/work.elf.dir/Src/main.c.obj
- .text.MX_USART1_UART_Init
-                0x0800127c       0x2c CMakeFiles/work.elf.dir/Src/main.c.obj
  .text.ds18b20_reset
-                0x080012a8       0x2c CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x080012a8                ds18b20_reset
+                0x080011bc       0x28 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+                0x080011bc                ds18b20_reset
  .text.ds18b20_transmit
-                0x080012d4       0x38 CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x080012d4                ds18b20_transmit
+                0x080011e4       0x34 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+                0x080011e4                ds18b20_transmit
  .text.ds18b20_set_settings
-                0x0800130c       0x32 CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x0800130c                ds18b20_set_settings
+                0x08001218       0x32 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+                0x08001218                ds18b20_set_settings
  .text.ds18b20_start_measuring_cmd
-                0x0800133e       0x1a CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x0800133e                ds18b20_start_measuring_cmd
+                0x0800124a       0x1a CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+                0x0800124a                ds18b20_start_measuring_cmd
  .text.ds18b20_read_data_cmd
-                0x08001358       0x80 CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x08001358                ds18b20_read_data_cmd
+                0x08001264       0x80 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+                0x08001264                ds18b20_read_data_cmd
  .text.ds18b20_convert_row_data
-                0x080013d8       0x38 CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x080013d8                ds18b20_convert_row_data
+                0x080012e4       0x38 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+                0x080012e4                ds18b20_convert_row_data
+ .text.MX_GPIO_Init
+                0x0800131c       0x78 CMakeFiles/work.elf.dir/Src/main.c.obj
+ .text.MX_USART2_UART_Init
+                0x08001394       0x48 CMakeFiles/work.elf.dir/Src/main.c.obj
+ .text.MX_USART1_UART_Init
+                0x080013dc       0x2c CMakeFiles/work.elf.dir/Src/main.c.obj
  .text.USART2_IRQHandler
-                0x08001410       0x7c CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x08001410                USART2_IRQHandler
+                0x08001408       0x7c CMakeFiles/work.elf.dir/Src/main.c.obj
+                0x08001408                USART2_IRQHandler
  .text.SystemClock_Config
-                0x0800148c       0x54 CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x0800148c                SystemClock_Config
- .text.main     0x080014e0       0x40 CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x080014e0                main
+                0x08001484       0x54 CMakeFiles/work.elf.dir/Src/main.c.obj
+                0x08001484                SystemClock_Config
+ .text.main     0x080014d8       0x48 CMakeFiles/work.elf.dir/Src/main.c.obj
+                0x080014d8                main
  .text.HAL_MspInit
                 0x08001520       0x44 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
                 0x08001520                HAL_MspInit
@@ -1091,18 +1086,17 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .data.uwTickPrio
                 0x20000004        0x4 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                 0x20000004                uwTickPrio
+ .data.reset_cmd.2
+                0x20000008        0x1 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+ .data.true_bit.1
+                0x20000009        0x1 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+ *fill*         0x2000000a        0x2 
  .data.my_ds18b20
-                0x20000008       0x14 CMakeFiles/work.elf.dir/Src/main.c.obj
-                0x20000008                my_ds18b20
- .data.reset_cmd.5
-                0x2000001c        0x1 CMakeFiles/work.elf.dir/Src/main.c.obj
- .data.true_bit.4
-                0x2000001d        0x1 CMakeFiles/work.elf.dir/Src/main.c.obj
- *fill*         0x2000001e        0x2 
+                0x2000000c       0x18 CMakeFiles/work.elf.dir/Src/main.c.obj
+                0x2000000c                my_ds18b20
  .data.SystemCoreClock
-                0x20000020        0x4 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
-                0x20000020                SystemCoreClock
- *fill*         0x20000024        0x4 
+                0x20000024        0x4 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+                0x20000024                SystemCoreClock
  .data.impure_data
                 0x20000028      0x428 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
  .data.__atexit_recursive_mutex
@@ -1123,8 +1117,8 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  *(.bss*)
  .bss.uwTick    0x20000470        0x4 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                 0x20000470                uwTick
- .bss.false_bit.3
-                0x20000474        0x1 CMakeFiles/work.elf.dir/Src/main.c.obj
+ .bss.false_bit.0
+                0x20000474        0x1 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
  *fill*         0x20000475        0x3 
  .bss.huart1    0x20000478       0x44 CMakeFiles/work.elf.dir/Src/main.c.obj
                 0x20000478                huart1
@@ -1178,78 +1172,82 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .ARM.attributes
                 0x000000fe       0x2d CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .ARM.attributes
-                0x0000012b       0x2d CMakeFiles/work.elf.dir/Src/main.c.obj
+                0x0000012b       0x2d CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
  .ARM.attributes
-                0x00000158       0x2d CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+                0x00000158       0x2d CMakeFiles/work.elf.dir/Src/main.c.obj
  .ARM.attributes
-                0x00000185       0x2d CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
+                0x00000185       0x2d CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
  .ARM.attributes
-                0x000001b2       0x2d CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+                0x000001b2       0x2d CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
  .ARM.attributes
-                0x000001df       0x21 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
+                0x000001df       0x2d CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
  .ARM.attributes
-                0x00000200       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+                0x0000020c       0x21 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
  .ARM.attributes
-                0x0000021d       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+                0x0000022d       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
  .ARM.attributes
-                0x0000023a       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x0000024a       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x00000267       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x00000267       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000294       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x00000294       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x000002c1       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x000002c1       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
  .ARM.attributes
-                0x000002ee       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x000002ee       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x0000031b       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x0000031b       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
  .ARM.attributes
-                0x00000348       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x00000348       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
  .ARM.attributes
-                0x00000375       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x00000375       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
  .ARM.attributes
-                0x000003a2       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x000003a2       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+ .ARM.attributes
+                0x000003cf       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(work.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0x5fe0
+.debug_info     0x00000000     0x6600
  .debug_info    0x00000000      0x7a8 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_info    0x000007a8      0xd8a CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_info    0x00001532      0x66f CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_info    0x00001ba1      0xa36 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_info    0x000025d7     0x1c8b CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_info    0x00004262     0x10e2 CMakeFiles/work.elf.dir/Src/main.c.obj
- .debug_info    0x00005344      0x902 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00005c46      0x130 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_info    0x00005d76      0x248 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_info    0x00005fbe       0x22 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
+ .debug_info    0x00004262      0xadf CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+ .debug_info    0x00004d41      0xc23 CMakeFiles/work.elf.dir/Src/main.c.obj
+ .debug_info    0x00005964      0x902 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x00006266      0x130 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_info    0x00006396      0x248 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_info    0x000065de       0x22 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
 
-.debug_abbrev   0x00000000     0x120b
+.debug_abbrev   0x00000000     0x13b3
  .debug_abbrev  0x00000000      0x1f4 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_abbrev  0x000001f4      0x341 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_abbrev  0x00000535      0x1e6 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_abbrev  0x0000071b      0x27a CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_abbrev  0x00000995      0x254 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_abbrev  0x00000be9      0x2a4 CMakeFiles/work.elf.dir/Src/main.c.obj
- .debug_abbrev  0x00000e8d      0x1b0 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x0000103d       0x7e CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x000010bb      0x13e CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x000011f9       0x12 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
+ .debug_abbrev  0x00000be9      0x1f9 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+ .debug_abbrev  0x00000de2      0x253 CMakeFiles/work.elf.dir/Src/main.c.obj
+ .debug_abbrev  0x00001035      0x1b0 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x000011e5       0x7e CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00001263      0x13e CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x000013a1       0x12 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
 
-.debug_loc      0x00000000     0x36e5
+.debug_loc      0x00000000     0x36f2
  .debug_loc     0x00000000      0x141 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_loc     0x00000141      0x71f CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_loc     0x00000860      0x47d CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_loc     0x00000cdd      0x63e CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_loc     0x0000131b     0x2037 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_loc     0x00003352      0x1c1 CMakeFiles/work.elf.dir/Src/main.c.obj
- .debug_loc     0x00003513       0xd3 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_loc     0x000035e6       0xff CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_loc     0x00003352      0x1ce CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+ .debug_loc     0x00003520       0xd3 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_loc     0x000035f3       0xff CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
 
-.debug_aranges  0x00000000      0x5b8
+.debug_aranges  0x00000000      0x5d0
  .debug_aranges
                 0x00000000       0xe0 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_aranges
@@ -1261,41 +1259,45 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .debug_aranges
                 0x00000258      0x200 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .debug_aranges
-                0x00000458       0x80 CMakeFiles/work.elf.dir/Src/main.c.obj
+                0x00000458       0x48 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
  .debug_aranges
-                0x000004d8       0x30 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+                0x000004a0       0x50 CMakeFiles/work.elf.dir/Src/main.c.obj
  .debug_aranges
-                0x00000508       0x60 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
+                0x000004f0       0x30 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
  .debug_aranges
-                0x00000568       0x28 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+                0x00000520       0x60 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
  .debug_aranges
-                0x00000590       0x28 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
+                0x00000580       0x28 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_aranges
+                0x000005a8       0x28 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
 
-.debug_ranges   0x00000000      0x5b8
+.debug_ranges   0x00000000      0x5c0
  .debug_ranges  0x00000000       0xd0 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_ranges  0x000000d0       0xe0 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_ranges  0x000001b0       0x48 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_ranges  0x000001f8       0xa0 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_ranges  0x00000298      0x1f0 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_ranges  0x00000488       0x88 CMakeFiles/work.elf.dir/Src/main.c.obj
- .debug_ranges  0x00000510       0x20 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_ranges  0x00000530       0x50 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_ranges  0x00000580       0x18 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_ranges  0x00000598       0x20 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
+ .debug_ranges  0x00000488       0x50 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+ .debug_ranges  0x000004d8       0x40 CMakeFiles/work.elf.dir/Src/main.c.obj
+ .debug_ranges  0x00000518       0x20 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_ranges  0x00000538       0x50 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_ranges  0x00000588       0x18 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_ranges  0x000005a0       0x20 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
 
-.debug_line     0x00000000     0x4e34
+.debug_line     0x00000000     0x506e
  .debug_line    0x00000000      0x576 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_line    0x00000576      0x65f CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_line    0x00000bd5      0x609 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_line    0x000011de      0xc52 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_line    0x00001e30     0x20e1 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x00003f11      0x778 CMakeFiles/work.elf.dir/Src/main.c.obj
- .debug_line    0x00004689      0x321 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x000049aa      0x1a4 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_line    0x00004b4e      0x245 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_line    0x00004d93       0xa1 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
+ .debug_line    0x00003f11      0x464 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+ .debug_line    0x00004375      0x54e CMakeFiles/work.elf.dir/Src/main.c.obj
+ .debug_line    0x000048c3      0x321 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x00004be4      0x1a4 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00004d88      0x245 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_line    0x00004fcd       0xa1 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
 
-.debug_str      0x00000000     0x1f25
+.debug_str      0x00000000     0x1f55
  .debug_str     0x00000000      0x80c CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                 0x860 (size before relaxing)
  .debug_str     0x0000080c      0x3f8 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
@@ -1306,15 +1308,17 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                                 0x667 (size before relaxing)
  .debug_str     0x00001152      0x9f6 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                                 0xcca (size before relaxing)
- .debug_str     0x00001b48      0x222 CMakeFiles/work.elf.dir/Src/main.c.obj
-                                0xd08 (size before relaxing)
- .debug_str     0x00001d6a       0x3a CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x00001b48      0x14f CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+                                0x9e9 (size before relaxing)
+ .debug_str     0x00001c97      0x103 CMakeFiles/work.elf.dir/Src/main.c.obj
+                                0x98f (size before relaxing)
+ .debug_str     0x00001d9a       0x3a CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
                                 0x6b3 (size before relaxing)
- .debug_str     0x00001da4       0xc5 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_str     0x00001dd4       0xc5 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
                                 0x259 (size before relaxing)
- .debug_str     0x00001e69       0x6c CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_str     0x00001e99       0x6c CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
                                 0x28b (size before relaxing)
- .debug_str     0x00001ed5       0x50 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
+ .debug_str     0x00001f05       0x50 CMakeFiles/work.elf.dir/Startup/startup_stm32f103c8tx.s.obj
                                  0x84 (size before relaxing)
 
 .comment        0x00000000       0x49
@@ -1324,27 +1328,29 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .comment       0x00000049       0x4a CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .comment       0x00000049       0x4a CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .comment       0x00000049       0x4a CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
  .comment       0x00000049       0x4a CMakeFiles/work.elf.dir/Src/main.c.obj
  .comment       0x00000049       0x4a CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
  .comment       0x00000049       0x4a CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
  .comment       0x00000049       0x4a CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
 
-.debug_frame    0x00000000     0x1000
+.debug_frame    0x00000000     0x1010
  .debug_frame   0x00000000      0x1cc CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .debug_frame   0x000001cc      0x118 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .debug_frame   0x000002e4       0xe4 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .debug_frame   0x000003c8      0x190 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .debug_frame   0x00000558      0x5c4 CMakeFiles/work.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_frame   0x00000b1c      0x150 CMakeFiles/work.elf.dir/Src/main.c.obj
- .debug_frame   0x00000c6c       0x60 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x00000ccc       0xa8 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
- .debug_frame   0x00000d74       0x30 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
- .debug_frame   0x00000da4       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
- .debug_frame   0x00000dc8       0x4c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
- .debug_frame   0x00000e14       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x00000e40       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x00000e6c       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x00000ec8       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x00000ee8       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x00000f1c       0xb0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x00000fcc       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x00000b1c       0xa8 CMakeFiles/work.elf.dir/Src/ds18b20.c.obj
+ .debug_frame   0x00000bc4       0xb8 CMakeFiles/work.elf.dir/Src/main.c.obj
+ .debug_frame   0x00000c7c       0x60 CMakeFiles/work.elf.dir/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x00000cdc       0xa8 CMakeFiles/work.elf.dir/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x00000d84       0x30 CMakeFiles/work.elf.dir/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x00000db4       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x00000dd8       0x4c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_addsubsf3.o)
+ .debug_frame   0x00000e24       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00000e50       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00000e7c       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00000ed8       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00000ef8       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00000f2c       0xb0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00000fdc       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
